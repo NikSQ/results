@@ -1,0 +1,8 @@
+Conducted: 2.12.2018
+Dataset: reduced pen stroke
+Weights: fully continuous
+Differences: pfp, pfp with l2 on variance, pfp with uninformative prior, local sampling, local sampling with l2 on variance, local sampling with uniformative prior, global sampling, global sampling with uninformative prior
+
+Other remarks:
+started at low initial variance which then grows
+prior variance was set rather large
