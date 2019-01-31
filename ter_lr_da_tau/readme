@@ -1,0 +1,7 @@
+Conducted: 1.2019
+Dataset: reduced pen stroke
+Weights: ternary weights, continuous bias and discrete activation
+Method: lr
+Differences: tau = [.4, .5, .6, .8, 1.]
+
+Conclusion: for low level of tau, there is often a longer period without much learning progress. gradient variance is probably too high. tau of about .8 works well

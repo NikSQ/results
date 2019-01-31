@@ -1,0 +1,7 @@
+Conducted: 1.2019
+Dataset: reduced pen stroke
+Weights: ternary weights, continuous bias and discrete activation
+Method: lr
+Differences: tau = [.2, .5, .2, .5], learning rate = [.005, .005, .0005, .0005]
+
+Conclusion: too short time intervals. way faster learning with higher tau
