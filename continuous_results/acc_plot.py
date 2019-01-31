@@ -5,7 +5,7 @@ n_exp = 8
 keys = ['tr_b_acc', 'va_b_acc', 'va_s_m_acc']
 legend = ['Bayesian Tr Acc', 'Bayesian Va Acc', 'Sampled Va Acc']
 suffix = 'exp'
-epochs = np.load('numerical_results/' + suffix + '_0_epochs.npy')
+epochs = np.load('numerical_results/' + suffix + '_3_epochs.npy')
 
 for exp_idx in range(n_exp):           
   partial_name = suffix + '_' + str(exp_idx)
@@ -19,6 +19,7 @@ for exp_idx in range(n_exp):
   plt.ylim([0, 100])
   plt.legend(legend, loc='lower right')
   plt.savefig('plots/accs/' + partial_name + '.png')
+  #plt.show()
   
  
     
