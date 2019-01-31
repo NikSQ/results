@@ -1,0 +1,6 @@
+Conducted: 10.12.2018
+Dataset: reduced pen stroke
+Weights: binary weights, continuous bias, continuous activation
+Method: local reparametrization with incremental learning with no pretraining and small prior (data_l: 10)
+
+Note: Can be compared to results l_inc_learning (beta = 0.3)

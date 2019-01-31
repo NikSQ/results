@@ -1,0 +1,6 @@
+Conducted: 10.12.2018
+Dataset: reduced pen stroke
+Weights: binary weights, continuous bias, continuous activation
+Method: local reparameterization with incremental learning and small prior (data_l: 10)
+Differences: different terms for beta regularization (0.3 and 1.0)
+
