@@ -1,9 +1,0 @@
-Tested variance of gradient.
-
-Network: Continuous 60-60
-Dataset: Reduced pen stroke
-
-Method: Networks were trained for 0, 4, 8, 12, 16 epochs. For each network gradient was estimated for l_sampling and g_sampling using 20 forward passes each.
-
-Numbering of numerical_results: First number divided by 2 floored and times 4 gives how long network was trained, first number modulo 2 gives the used method (lr=0, gr=1)
-second number refers to the different variables

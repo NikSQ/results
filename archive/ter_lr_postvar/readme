@@ -1,8 +1,0 @@
-Conducted: 16.12.2018
-Dataset: reduced pen stroke
-Weights: ternary weights, continuous bias and activation
-Method: local reparametrization
-Differences: regularization term on posterior variance [0.0001, 0.001, 0.01, 0.1, 1., 10.]
-
-Other remarks:
-KL loss was calculated the wrong way, causing the network to not make much use of -1 weights. however, the kl term was relatively small compared to elogl

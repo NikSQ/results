@@ -1,8 +1,0 @@
-Conducted: 16.12.2018
-Dataset: reduced pen stroke
-Weights: ternary weights, continuous bias and activation
-Method: local reparametrization
-Differences: regularization term on posterior variance [0.01, 0.04, 0.16]
-
-Other remarks:
-KL Loss was deactivated
