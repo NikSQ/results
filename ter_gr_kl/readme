@@ -1,0 +1,10 @@
+Conducted: 1.2019
+Dataset: reduced pen stroke
+Weights: ternary weights, continuous bias and activation
+Method: gr
+Differences: The prior [0.2, 0.6, 0.2] and [0.1, 0.8, 0.1] was chosen depending on task_id % 2. data multiplier is 0.01, 0.1, 1., 10. depending on task_id / 2
+
+
+Weights:
+For too large KLs (exp0-exp3) the histograms become very localized. sa around some positive value depending on prior, and sb around 0
+for smaller KLs the histograms become more spread out and gaussian like. for even smaller KLs the histogram loses its gaussian profile and can become multimodal
