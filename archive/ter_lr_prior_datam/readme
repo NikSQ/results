@@ -1,0 +1,8 @@
+Conducted: 17.12.2018
+Dataset: reduced pen stroke
+Weights: ternary weights, continuous bias and activation
+Method: local reparametrization
+Differences: different symmetric priors ([0.2, 0.6, 0.2] and [0.1, 0.8, 0.1]) and elogl weighting (0.05, 0.2 and 1.0). prior = [task_id % 2], elogl weighting = [task_id / 2]
+
+Other remarks:
+Small variance regularization 0.01
