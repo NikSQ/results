@@ -1,0 +1,7 @@
+layout:        15 (chosen by layout test)
+learning rate: .001 (chosen by layout test)
+l2:            .02
+epochs:        1500
+
+e1_layout:
+10 and 15 seem to be feasible

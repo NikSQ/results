@@ -1,0 +1,10 @@
+Layout: 40-40
+MNIST CONT PARAMS (weak regularization - see cont/e1):
+learning rate = .01
+epochs        = 2000
+lr_tau        = 500
+p_state       = .05
+p_out         = .01
+l2            = .03
+
+
